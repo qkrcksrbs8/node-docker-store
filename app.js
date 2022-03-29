@@ -8,7 +8,7 @@ router.use(bodyParser.json());
 
 const store = require('./src/router/storeRouter');
 
-router.use('/user', store);
+router.use('/store', store);
 
 //포트 연결
 router.listen(9002,()=>console.log(`http://localhost:9002`));
